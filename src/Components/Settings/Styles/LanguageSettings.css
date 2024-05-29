@@ -1,0 +1,22 @@
+.language-settings {
+    height: 100vh;
+  }
+  
+  .label {
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .language-select {
+    width: 100%;
+    font-size: 13px;
+    font-family: 'Sora', sans-serif;
+  }
+  
+  .description {
+    font-size: 12px;
+    color: #666;
+    font-family: 'Sora', sans-serif;
+  }
+  

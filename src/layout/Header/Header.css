@@ -1,0 +1,36 @@
+.header {
+width: 1042px;
+height: 100px;
+background-image: url(../../assets/Images/Header_Background3.png);
+padding: 10px;
+}
+.breadcrumbs-title{
+display: flex;
+flex-direction: column;
+}
+.breadcrumbs-title-date{
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+}
+
+.breadcrumb-item {
+color: rgb(255, 255, 255); /* Change breadcrumb text color */
+font-family: Sora, sans-serif; /* Change breadcrumb font */
+font-size: 12px; /* Change breadcrumb font size */
+}
+
+.title {
+float: right;
+color: white;
+}
+
+ .date {
+margin-top: 10px;
+} 
+.date-and-calendar{
+margin-top:25px;
+display:flex;
+color: white;
+font-size: 12px;
+}

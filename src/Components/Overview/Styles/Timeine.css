@@ -1,0 +1,46 @@
+.timeline {
+  width: 650px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: -80px;
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mini-calendar {
+  margin-top: 10px;
+}
+
+.weekdays {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.recent-tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.task-card-timeline {
+  width: 500px;
+  height: 80px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+.days{
+  display: flex;
+  flex-direction: column;
+  font-size: 35px;
+}
+.weekday{
+  font-size: 14px;
+  color: rgba(109, 109, 109, 0.582);
+  margin-left: 10px;
+}

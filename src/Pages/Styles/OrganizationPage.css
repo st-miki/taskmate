@@ -1,0 +1,12 @@
+.organization-page {
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    height: 70vh;
+    overflow-y: auto;
+  }
+  
+  .organization-page h1 {
+    font-size: 14px;
+    font-weight: bold;
+  }

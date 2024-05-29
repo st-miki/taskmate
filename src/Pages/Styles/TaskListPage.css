@@ -1,0 +1,39 @@
+.tasklist-page{
+  height: 80vh;
+  overflow-y: auto;
+}
+
+.task-display {
+    display: flex;
+  }
+  
+  .display-section {
+    flex: 1;
+  }
+  
+  .task-card {
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+  
+  .task-details {
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;
+  }
+  
+  .priority, .due-date, .tags, .assignees {
+    margin-bottom: 5px;
+  }
+  
+  .assignee {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .search-section {
+    flex: 0 0 200px;
+    margin-left: 20px; /* Add margin to separate search bar from task display */
+    padding: 30px;
+  }
+  

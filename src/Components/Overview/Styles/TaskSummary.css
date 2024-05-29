@@ -1,0 +1,39 @@
+.task-summary-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px; /* Adjust based on preference */
+  
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Full width of the container */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.title-and-description {
+  display: flex;
+  flex-direction: column; /* Stack the title and description */
+}
+
+.task-summary-description {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around; /* Evenly space the cards */
+  width: 100%; /* Full width */
+  box-sizing: border-box;
+}
+
+.task-card {
+  flex: 1; /* Each card takes equal space */
+  margin: 0 5px; /* Spacing between cards */
+  align-items: center;
+  /* Optional: Add other styles like min-width etc. */
+}

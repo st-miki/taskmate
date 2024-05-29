@@ -1,0 +1,117 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    color: #000;
+    font-size: 24px;
+  }
+  
+  .taskmate {
+    font-weight: bold;
+
+  }
+  
+  .orange {
+    color: rgb(0, 119, 255);
+  }
+  
+  .motto {
+    font-size: 12px;
+    color: grey;
+   
+  }
+  
+  .account-info {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 5px;
+    width: 180px;
+    margin-left: 25px;
+    margin-top: 0px;
+  }
+  
+  .profile {
+    margin-right: 20px;
+  }
+  
+  .name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .username {
+    margin: 0;
+    color: grey;
+    font-size: 12px;
+  }
+  
+  .menu-container {
+    margin-top: 20px;
+  }
+  
+  .theme-toggle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    align-self: center;
+  }
+  .ant-menu-item, .ant-menu-submenu-title {
+    font-family: 'Sora', sans-serif; /* Use Sora font */
+    font-size: 12px; /* Set font size to 14 */
+    color: white; /* Set color to white */
+  }
+  
+  .ant-menu-submenu-title {
+    padding-left: 16px; /* Adjust padding for submenu titles */
+  }
+  
+:where(.css-dev-only-do-not-override-mzwlov).ant-menu-light.ant-menu-inline .ant-menu-sub.ant-menu-inline, :where(.css-dev-only-do-not-override-mzwlov).ant-menu-light>.ant-menu.ant-menu-inline .ant-menu-sub.ant-menu-inline {
+  background: rgba(255, 255, 255, 0.02);
+}
+:where(.css-dev-only-do-not-override-mzwlov).ant-menu-inline .ant-menu-item, :where(.css-dev-only-do-not-override-mzwlov).ant-menu-vertical .ant-menu-item, :where(.css-dev-only-do-not-override-mzwlov).ant-menu-inline .ant-menu-submenu-title, :where(.css-dev-only-do-not-override-mzwlov).ant-menu-vertical .ant-menu-submenu-title {
+  height: 40px;
+  line-height: 40px;
+  padding-inline: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-inline: 4px;
+  margin-block: 0px;
+  width: calc(100% - 8px);
+}
+:where(.css-dev-only-do-not-override-mzwlov).ant-select-single .ant-select-selector {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 12px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  font-family: inherit;
+  display: flex;
+  border-radius: 6px;
+}
+.logout-version {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.version {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 5px;
+}
+:where(.css-dev-only-do-not-override-mzwlov).ant-menu ul, :where(.css-dev-only-do-not-override-mzwlov).ant-menu ol {
+  margin: 0;
+  margin-left: -15px;
+  padding: 0;
+  list-style: none;
+}

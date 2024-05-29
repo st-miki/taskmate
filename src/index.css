@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+
+/* Use Sora for all text */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sora', sans-serif;
+    margin: 0;
+}

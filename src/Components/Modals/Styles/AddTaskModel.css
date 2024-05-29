@@ -1,0 +1,17 @@
+.ant-modal-title {
+    font-family: 'Sora', sans-serif !important;
+    font-weight: 600;
+  }
+  
+  .ant-form-item-label > label {
+    font-family: 'Sora', sans-serif !important;
+  }
+  
+  .ant-input, .ant-select-selector, .ant-picker {
+    font-family: 'Sora', sans-serif !important;
+  }
+  
+  .ant-modal-footer .ant-btn {
+    font-family: 'Sora', sans-serif !important;
+  }
+  

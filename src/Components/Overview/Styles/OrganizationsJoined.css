@@ -1,0 +1,37 @@
+.organizations-joined {
+    
+    width: 370px;
+    padding: 20px;
+  }
+  
+  .organizations-joined-title-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 20px;
+  }
+
+  
+  .organizations-profile-pictures{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+  }
+  .task-types{
+    display: flex;
+    flex-direction: column;
+  }
+  .tags {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .tag{
+    display: flex;
+    align-items: center;
+    font-family: 'Sora', san-serif;
+    font-size: 12px;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 8px;
+  }

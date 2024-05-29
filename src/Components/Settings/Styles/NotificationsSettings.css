@@ -1,0 +1,35 @@
+.notifications-settings {
+    height: 100vh;
+}
+
+.sub-title {
+margin-bottom: 16px;
+font-family: 'Sora', sans-serif;
+font-size: 12px;
+}
+
+.toggle-container {
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+font-family: 'Sora', sans-serif;
+font-size: 13px;
+font-weight: 600;
+}
+
+.checkbox-container {
+margin-top: 16px;
+font-family: 'Sora', sans-serif;
+font-size: 12px;
+}
+
+.checkbox-description {
+margin-left: 24px;
+font-family: 'Sora', sans-serif;
+font-size: 12px;
+}
+.notification-setting-checkbox{
+font-family: 'Sora', sans-serif;
+font-size: 13px;
+font-weight: 600;
+}

@@ -1,0 +1,61 @@
+.login-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    gap: 20px; /* Gap between the columns */
+  }
+  
+  .login-form-container {
+    display: flex;
+    justify-content: center; /* Center the login form horizontally */
+    align-items: center; /* Center the login form vertically */
+  }
+  
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the description vertically */
+    align-items: center; /* Center the description horizontally */
+  }
+  
+  :where(.css-dev-only-do-not-override-1k979oh).ant-col-24.ant-form-item-label, :where(.css-dev-only-do-not-override-1k979oh).ant-col-xl-24.ant-form-item-label {
+    padding: 0 0 0px;
+    margin: 0;
+    white-space: initial;
+    text-align: start;
+}
+.login-logo {
+    font-family: "Sora", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 90px;
+    text-decoration: none;
+  }
+  
+  /* Styles for description */
+  .description {
+    text-align: center;
+    
+  }
+  
+  .description h2 {
+    margin-bottom: -10px;
+    color: #0a0a0af1;
+    font-size: 32px;
+    font-family: "Sora", san-serif;
+    width: 500px;
+    z-index: 1000;
+    position: absolute;
+    top: 40px;
+    letter-spacing: 0px; /* Decrease letter spacing */
+    word-spacing: 0px;
+  }
+  
+  
+  .description img {
+    margin-top: 100px;
+    max-width: 100%; /* Adjust illustration size */
+    z-index: 1;
+    position: relative;
+  }
+  

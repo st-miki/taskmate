@@ -1,0 +1,49 @@
+.task-display {
+  padding-left: 30px;
+
+}
+
+.display-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid rgba(216, 216, 216, 0.342);
+  border-radius: 10px;
+}
+
+.task-card-tasklist {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.task-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.assignees {
+  display: flex;
+  gap: 10px;
+}
+
+.assignee {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.assignee strong {
+  font-weight: bold;
+}
+.custom-search .ant-input::placeholder {
+  font-size: 12px;
+}

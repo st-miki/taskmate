@@ -1,0 +1,57 @@
+/* src/components/Styles/TaskGraph.css */
+.task-graph {
+    font-family: 'Sora', sans-serif;
+    padding: 20px;
+  }
+  
+  .react-calendar-heatmap .color-empty {
+    fill: #ebedf0;
+  }
+  
+  .react-calendar-heatmap .color-scale-0 {
+    fill: #ebedf0;
+  }
+  
+  .react-calendar-heatmap .color-scale-1 {
+    fill: #cce0ff; /* Light blue */
+  }
+  
+  .react-calendar-heatmap .color-scale-2 {
+    fill: #99c2ff; /* Medium blue */
+  }
+  
+  .react-calendar-heatmap .color-scale-3 {
+    fill: #66a3ff; /* Darker blue */
+  }
+  
+  .react-calendar-heatmap .color-scale-4 {
+    fill: #3385ff; /* Darkest blue */
+  }
+  
+  .task-graph h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Custom Tooltips */
+  .react-calendar-heatmap .color-scale-0:hover::after {
+    content: "No task contributed on this day";
+  }
+  
+  .react-calendar-heatmap .color-scale-1:hover::after {
+    content: "1 task contributed on this day";
+  }
+  
+  .react-calendar-heatmap .color-scale-2:hover::after {
+    content: "2 tasks contributed on this day";
+  }
+  
+  .react-calendar-heatmap .color-scale-3:hover::after {
+    content: "3 tasks contributed on this day";
+  }
+  
+  .react-calendar-heatmap .color-scale-4:hover::after {
+    content: "4 or more tasks contributed on this day";
+  }
+  

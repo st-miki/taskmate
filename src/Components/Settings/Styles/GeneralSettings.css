@@ -1,0 +1,13 @@
+.custom-form {
+    font-family: 'Sora', sans-serif; /* Apply Sora font to the form */
+  }
+  
+  .custom-input,
+  .custom-textarea {
+    font-family: 'Sora', sans-serif; /* Apply Sora font to inputs and textareas */
+  }
+  .ant-form-item-label label {
+    font-family: 'Sora', sans-serif; /* Change font family */
+    font-size: 12px !important;
+  }
+  
